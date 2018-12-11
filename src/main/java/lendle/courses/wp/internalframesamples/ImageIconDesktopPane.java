@@ -24,7 +24,7 @@ public class ImageIconDesktopPane extends JDesktopPane{
 
     public ImageIconDesktopPane() {
         try {
-            ImageIcon icon = new ImageIcon(new URL("https://image.freepik.com/free-vector/blue-and-green-wavy-background_1035-7430.jpg"));
+            ImageIcon icon = new ImageIcon(new URL("http://i1.hdslb.com/bfs/archive/ec889d909afd46fdcfea0eebd41b814988dda53c.jpg"));
             image=icon.getImage();
         } catch (MalformedURLException ex) {
             Logger.getLogger(ImageIconDesktopPane.class.getName()).log(Level.SEVERE, null, ex);
